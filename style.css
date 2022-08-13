@@ -6,6 +6,8 @@
     --heading-font: 'Rubik Iso', cursive;
     --secondary-font: 'Inconsolata', monospace;
 }
+
+/* This section is for the homepage */
 #background {
     background-color: rgb(226, 239, 255);
 }
@@ -31,9 +33,27 @@
 .btn {
     color: black;
     font-family: var(--secondary-font);
-    text-decoration: none;
     background-color: rgb(255, 218, 244);
     padding: 0.5rem;
     width: fit-content;
     align-self: center;
 }
+.btn a {
+    text-decoration: none;
+}
+
+/* This section is for each question page */
+.questionSection {
+    display: flex;
+    gap: 0.5rem;
+    font-family: var(--secondary-font);
+}
+.answerSection {
+    font-family: var(--secondary-font);
+}
+.option div {
+    padding: 0.5rem;
+}
+
+
+
