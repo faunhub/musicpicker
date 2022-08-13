@@ -31,7 +31,6 @@
     font-size: 13px;
 }
 .btn {
-    color: black;
     font-family: var(--secondary-font);
     background-color: rgb(255, 218, 244);
     padding: 0.5rem;
@@ -40,6 +39,13 @@
 }
 .btn a {
     text-decoration: none;
+}
+.footer {
+    font-family: var(--secondary-font);
+    font-size: 11px;
+    position: relative;
+    align-self: center;
+    margin-top: auto;
 }
 
 /* This section is for each question page */
