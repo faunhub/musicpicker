@@ -57,7 +57,7 @@
 .answerSection {
     font-family: var(--secondary-font);
 }
-.option div {
+.answerSection li {
     padding: 0.5rem;
 }
 
