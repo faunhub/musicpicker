@@ -5,16 +5,19 @@
     box-sizing: border-box;
     --heading-font: 'Rubik Iso', cursive;
     --secondary-font: 'Inconsolata', monospace;
+    --main-color: rgb(214, 156, 196);
+    --secondary-color: rgb(226, 239, 255);
+    --background-color: rgb(255, 255, 236);
 }
 
 /* This section is for the homepage */
 #background {
-    background-color: rgb(226, 239, 255);
+    background-color: var(--secondary-color);
 }
 .container {
     width: 375px;
     margin: auto;
-    background-color: rgb(255, 255, 236);
+    background-color: var(--background-color);
     padding: 2rem;
     height: 100vh;
     display: flex;
@@ -22,6 +25,7 @@
     justify-content: center;
 }
 .header {
+    color: var(--main-color);
     font-family: var(--heading-font);
     font-size: 50px;
     text-align: center;
@@ -32,13 +36,14 @@
 }
 .btn {
     font-family: var(--secondary-font);
-    background-color: rgb(255, 218, 244);
+    background-color: var(--main-color);
     padding: 0.5rem;
     width: fit-content;
     align-self: center;
 }
 .btn a {
     text-decoration: none;
+    color: black;
 }
 .footer {
     margin-top: 2rem;
@@ -46,6 +51,7 @@
     font-size: 11px;
     position: relative;
     align-self: center;
+    color: var(--main-color);
 }
 
 /* This section is for each question page */
