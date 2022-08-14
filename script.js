@@ -28,7 +28,7 @@ let questionsList = [
 function nextQuestion(){
     let currentNo = parseInt(questionCounter.textContent);
     if (currentNo >=5){
-        return;
+        window.location.href = 'result.html';
     }
     questionCounter.textContent = currentNo+1;
     currentQuestion.textContent = questionsList[currentNo-1].question;

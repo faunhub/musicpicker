@@ -41,11 +41,11 @@
     text-decoration: none;
 }
 .footer {
+    margin-top: 2rem;
     font-family: var(--secondary-font);
     font-size: 11px;
     position: relative;
     align-self: center;
-    margin-top: auto;
 }
 
 /* This section is for each question page */
