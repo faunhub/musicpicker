@@ -43,6 +43,10 @@
     width: fit-content;
     align-self: center;
     cursor: pointer;
+    transition-duration: 0.4s;
+}
+.btn:hover {
+    border: 5px solid  rgb(215, 65, 167); ;
 }
 .btn a {
     text-decoration: none;
