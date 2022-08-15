@@ -15,7 +15,7 @@
     background-color: var(--secondary-color);
 }
 .container {
-    width: min(375px, 100%);;
+    width: min(700px, 100%);
     margin: auto;
     background-color: var(--background-color);
     padding: 2rem;
