@@ -4,7 +4,8 @@ let questionsList = [
         choice1: '> Summer ☀️',
         choice2: '> Fall/Spring 🌸',
         choice3: '> > Winter ☃️', 
-    },{
+    },
+    {
         question: 'Does your wardrobe consists most of?',
         choice1: '> Warm tones (i applaud ur bravery).',
         choice2: '> Cold tones (u are like mama)',
@@ -61,20 +62,20 @@ let questionsList = [
 ]
 
 function compareScores() {
-    let highestScore = 'A';
+    let highestScore;
     if (scoreA > scoreB && scoreA > scoreC){
-        highestScore = 'A';
+        highestScore = 1;
     } else if (scoreB > scoreA && scoreB > scoreC){
-        highestScore = 'B';
+        highestScore = 2;
     } else if (scoreC > scoreA && scoreC > scoreB){
-        highestScore = 'C';
+        highestScore = 3;
     } else {
         if (scoreA == scoreB){
-            highestScore = 'A';
+            highestScore = 4;
         } else if (scoreB == scoreC){
-            highestScore = 'B';
+            highestScore = 5;
         } else {
-            highestScore = 'C';
+            highestScore = 6;
         }
     }
     return highestScore;

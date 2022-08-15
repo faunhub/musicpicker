@@ -30,7 +30,7 @@
     font-size: 50px;
     text-align: center;
 }
-.welcomeMessage {
+.welcomeMessage, .resultComment {
     margin-top: 2rem;
     font-family: var(--secondary-font);
     font-size: 13px;
@@ -85,6 +85,9 @@
     font-family: var(--secondary-font);
     padding: 2rem;
     font-size: 20px;
+    text-align: center;
+}
+.resultComment {
     text-align: center;
 }
 
