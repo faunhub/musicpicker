@@ -3,7 +3,7 @@ let questionsList = [
         question: 'What is your favorite season?',
         choice1: '> Summer ☀️',
         choice2: '> Fall/Spring 🌸',
-        choice3: '> > Winter ☃️', 
+        choice3: '> Winter ☃️', 
     },
     {
         question: 'Does your wardrobe consists most of?',
